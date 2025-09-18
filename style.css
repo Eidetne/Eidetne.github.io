@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap; /* responsive mobile */
+}
+
+.header-left .profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+}
+
+.header-right h1 {
+  margin: 0;
+}
+
+.header-right .title {
+  margin: 5px 0 10px 0;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.header-right .links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.header-right .links a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Experience & Projects */
+.experience-item, .project-item {
+  margin-bottom: 30px;
+}
+
+.exp-grid {
+  display: flex;
+  gap: 20px; /* espace entre colonnes */
+  align-items: flex-start;
+  flex-wrap: wrap; /* responsive mobile */
+}
+
+.exp-grid .left {
+  flex: 1;
+  min-width: 200px;
+}
+
+.exp-grid .left p {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.exp-grid .left .dates {
+  font-style: italic;
+  font-weight: normal;
+  color: #555;
+}
+
+.exp-grid .right {
+  flex: 2;
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.exp-grid .right li {
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #eee;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
